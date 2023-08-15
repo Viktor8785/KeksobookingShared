@@ -80,7 +80,7 @@ function deleteAllMarkers(map) {
 
 function createMainMarker() {
   const icon = L.icon({
-    iconUrl: '../img/main-pin.svg',
+    iconUrl: './img/main-pin.svg',
     iconSize: [40, 40],
     iconAnchor: [20, 40],
   });

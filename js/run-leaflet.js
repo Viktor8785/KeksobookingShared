@@ -59,13 +59,13 @@ function createMarkers(nearestEstates, template) {
     if(index > 9) {
       return;
     }
-    const icon = L.icon({
-      iconUrl: '../img/pin.svg',
+    const iconPin = L.icon({
+      iconUrl: './img/pin.svg',
       iconSize: [40, 40],
       iconAnchor: [20, 40],
     });
     const marker = L.marker([estate.location.lat, estate.location.lng],
-      {icon: icon},
+      {icon: iconPin},
     );
     markers.push(marker);
     marker.addTo(mapMap).bindPopup(template[index]);

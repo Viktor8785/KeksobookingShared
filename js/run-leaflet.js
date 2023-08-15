@@ -60,7 +60,7 @@ function createMarkers(nearestEstates, template) {
       return;
     }
     const icon = L.icon({
-      iconUrl: '../img/muffin-red.svg',
+      iconUrl: '../img/muffin-grey.svg',
       iconSize: [40, 40],
       iconAnchor: [20, 40],
     });
